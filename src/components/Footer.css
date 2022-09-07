@@ -1,0 +1,146 @@
+.fb-hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.fb-hover:hover {
+    color: blue;
+
+}
+
+.instagram {
+    filter: contrast(0.001);
+    width: 2.4em;
+    cursor: pointer;
+padding-bottom: 6px;
+}
+
+.instagram:hover {
+    filter: contrast(1);
+}
+
+
+.u2-hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.u2-hover:hover {
+    color: red;
+}
+
+.pointer-cursor:hover {
+    cursor: pointer;
+}
+
+.font-nunito-regular {
+    font-family: Nunito;
+    font-weight: 400;
+}
+
+.font-nunito-semibolditalic {
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.font-nunito-semibold {
+    font-family: Nunito;
+    font-weight: 600;
+}
+
+.font-nunito-bold {
+    font-family: Nunito;
+    font-weight: 700;
+}
+
+.font-nunito-italic {
+    font-family: Nunito;
+    font-style: italic;
+}
+
+.color-purple {
+    color: #6561B2
+}
+
+.color-black {
+    color: #000000;
+}
+
+.color-lightblack {
+    color: #262626;
+}
+
+.color-black-transpact {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.color-grey {
+    color: #747474;
+}
+
+.color-blue {
+    color: #020545;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.color-orange {
+    color: #F1A039;
+}
+
+.color-lightpurple {
+    color: #8A86D0
+}
+
+.color-black-medium {
+    color: #333333
+}
+
+
+.font-size-px-xs {
+    font-size: 12px;
+}
+
+.font-size-px-sm {
+    font-size: 14px;
+}
+
+.font-size-rem-xs {
+    font-size: 1rem;
+}
+
+.font-size-rem-sm {
+    font-size: 1.5rem;
+}
+
+.font-size-rem-md {
+    font-size: 2rem;
+}
+
+.font-size-rem-lg {
+    font-size: 2.5rem;
+}
+
+.font-size-rem-xl {
+    font-size: 3rem;
+}
+
+.letter-spacing-s {
+    letter-spacing: 0.5px;
+}
+
+.letter-spacing-m {
+    letter-spacing: 1px;
+}
+
+.letter-spacing-l {
+    letter-spacing: 1.5px;
+}
+
+.footer-hover:hover{
+    color: #6561B2;
+    cursor:pointer;
+  }

@@ -1,0 +1,62 @@
+[
+  {
+    "link": "/about",
+    "title": "About Us",
+    "des": "Technologies we use"
+  },
+  {
+    "link": "/contact",
+    "title": "Contact Us",
+    "des": "info@cerebrohk.com, 20/F, Benson Tower, 74 Hung To Road, Kwun Tong, Kowloon, Hong Kong"
+  },
+  {
+    "link": "/",
+    "title": "Home",
+    "des": "Our Mission We are your trusted software engineering partner, with the leverage of smart innovations and cloud technologies, empowering businesses to achieve more in the digital acceleration."
+  },
+  {
+    "link": "/product/Analyse",
+    "title": "Cerebro Analyse",
+    "des": "A software to streamline construction budgeting and estimations. With a few clicks, monthly and overall costs of sub-contractors and projects will be automatically calculated and ready for review, saving those tedious cost calculations from now on."
+  },
+  {
+    "link": "/product/BIM",
+    "title": "BIM",
+    "des": "We offer Building Information Modelling (BIM) services - a three dimensional illustration of the entire building lifecycle of the building asset."
+  },
+  {
+    "link": "/product/Diary",
+    "title": "Digital Works Supervision System (DWSS) Cerebro Diary",
+    "des": "A paperless site diary platform to record daily construction records. With a few steps, site staff will be able to record every site details ranging from manpower to equipment, along with report export function to generate comprehensive reports which are in compliance with construction practice."
+  },
+  {
+    "link": "/product/EDMS",
+    "title": "Electronic Document Management System Cerebro Project",
+    "des": "An all-in-one platform to centralise, organise and update company documents and drawings. More than a document filing system, our platform combines storage and assignment to ensure hassle free document handling."
+  },
+  {
+    "link": "/product/Inspection",
+    "title": "Digital Works Supervision System (DWSS) Cerebro Inspection",
+    "des": "A barrier-free inspection platform for all types of inspections and workflows. All inspections are conducted via smartphones, tablets or web browsers with selections of straightforward drop down options and check boxes with photo capture and upload function, streamlining inspection activities"
+  },
+  {
+    "link": "/product/KMS",
+    "title": "Knowledge Management System",
+    "des": "A centralised knowledge sharing platform for all construction project know-hows. Authorized construction professionals can update project information where management teams can review and track all construction records and progress, even from long finished projects at ease."
+  },
+  {
+    "link": "/product/PhotoReg",
+    "title": "Cerebro Prject Photo Registration",
+    "des": "Utilizing the cloud technology, all site photos can now be uploaded, stored and categorized through the cloud-based platform with access from anytime and anywhere. Photos stored are retrievable in our Cerebro platforms."
+  },
+  {
+    "link": "/product/Procurement",
+    "title": "Cerebro Procurement",
+    "des": "An integrated platform to automate vendor and material sourcing, digitally. From identifying material costs, screening of best vendors, receipt of quotations and material purchase, every internal and external material movements will always be under your control 24/7, just on one tap away."
+  },
+  {
+    "link": "/product/Signature",
+    "title": "Signature App",
+    "des": "Make an electronic signature to Cerebro platforms, anytime and anywhere."
+  }
+]
