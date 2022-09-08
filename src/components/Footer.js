@@ -34,7 +34,7 @@ export default function Footer() {
         <Box sx={{ flexGrow: 1 }} className={classes.root}>
             <Grid container spacing={2} p={20}>
 
-                <Grid item xs={4}>
+                <Grid item sm={12} md={4}>
                     <div >
                         <Grid paddingBottom={"10px"}>
                             <img style={{ width: '13rem' }} src={Cerebro} alt="Cerebro" className="margin-footer-l" />
@@ -51,7 +51,7 @@ export default function Footer() {
                             </Grid>
                         </Grid>
 
-                        <Grid style={{}} item xs={12}>
+                        <Grid item xs={12}>
                             <Grid container>
                                 <Grid item xs={2}>
                                     <IoLocationSharp />
@@ -65,7 +65,7 @@ export default function Footer() {
                     </div>
                 </Grid>
 
-                <Grid item xs={2}>
+                <Grid item sm={12} md={2}>
                     <div style={{ display: "inline-block" }}>
                         <Grid paddingTop={"15px"}>
                             <Grid item xs={12} paddingBottom={"20px"} sx={{ fontWeight: 'bold' }}>
@@ -88,15 +88,14 @@ export default function Footer() {
                                     // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
                                     // color={isHover ? "blue" : "gray"}
                                 />
-                                {/* <div class="ig-hover"><div class="inner"><BsInstagram
+                                <div class="ig-hover"><div class="inner"><BsInstagram
                                     onClick={() => window.open('https://www.instagram.com/cerebrostrategylimited/', "_blank")}
                                     size="40"
                                     style={{ margin: '5px' }}
                                     // class="ig-hover"
                                     // onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
                                     // color={isHover ? "transparent" : "gray"}
-                                /></div></div> */}
-                                <img src={IG} onClick={()=>window.open('https://www.instagram.com/cerebrostrategylimited/', "_blank")} style={{fill:'grayscale(0)'}} className="instagram" alt="" />
+                                /></div></div>
                                 <BsYoutube
                                     onClick={() => window.open('https://www.youtube.com/channel/UCorXExRHKUKGoBsOtRZkzCQ/featured', "_blank")}
                                     size="40"

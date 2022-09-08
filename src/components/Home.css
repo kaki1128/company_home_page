@@ -75,8 +75,15 @@ video {
     font-weight: 800;
 }
 
-.videoTextContent {
+.videoTextContent1 {
     padding-top: 50px;
+    position: absolute;
+    top:220px;
+}
+
+.videoTextContent2 {
+    position: absolute;
+    top:300px
 }
 
 .citf {

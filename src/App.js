@@ -23,10 +23,9 @@ const theme = createTheme({
     },
   },
 
-  // typography: {
-  //   fontFamily: {
-  //   }
-  // },
+  typography: {
+    fontFamily: ["Nunito"]
+  },
 })
 
 function App() {
@@ -171,7 +170,7 @@ function App() {
             />
 
             <Route exact path="/contact" element={<Contactus />} />
-            <Route path="/search" element={<Search data={Data}/>} />
+            <Route path="/search" element={<Search data={Data} />} />
           </Routes>
           <Footer />
         </div>

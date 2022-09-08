@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles } from '@material-ui/styles';
 import { Box, Grid, Button, Card, CardContent, CardMedia, Typography, CardActionArea, Chip, Slide } from '@mui/material';
 import { Container } from "@mui/system";
@@ -21,6 +21,8 @@ import { RiComputerLine, RiSmartphoneLine } from "react-icons/ri";
 import { useInView } from "react-intersection-observer";
 import { HashLink } from "react-router-hash-link";
 import Aos from "aos";
+import { Hidden } from "@material-ui/core";
+import Typist from "react-typist-component";
 
 
 const useStyles = makeStyles({
@@ -84,7 +86,7 @@ export const WhatWeDoCards = (props) => {
 
     //Animation
     React.useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 1500 });
     }, []);
 
     return (
@@ -136,24 +138,25 @@ export default function App() {
 
     return (
         <Box>
-
-            <div style={{ position: 'absolute', zIndex: 10000, left: '3vw', bottom: '340px' }} >
-                <div style={{ position: 'fixed', justifyContent: 'center', alignContent: 'center', height: '340px  ' }} >
-                    <HashLink smooth to={'/#intro'} style={{ textDecoration: "none" }}>
-                        <div className={inViewSection1 ? "Dot-Font-active " : "Dot-Font"} >.</div>
-                    </HashLink>
-                    <HashLink smooth to={'/#mission'} style={{ textDecoration: "none" }}>
-                        <div className={inViewSection2 ? (inViewSection1 ? "Dot-Font" : "Dot-Font-active ") : "Dot-Font"}>.</div>
-                    </HashLink>
-                    <HashLink smooth to={'/#products'} style={{ textDecoration: "none" }}>
-                        <div className={inViewSection3 ? (inViewSection2 ? "Dot-Font" : (inViewSection4 ? "Dot-Font" : "Dot-Font-active ")) : "Dot-Font"}>.</div>
-                    </HashLink>
-                    <HashLink smooth to={'/#our-clients'} style={{ textDecoration: "none" }}>
-                        <div className={inViewSection4 ? "Dot-Font-active " : "Dot-Font"}>.</div>
-                    </HashLink>
-                    <div className={inViewSection5 ? "line-decoration-none" : "line-decoration"} />
+            <Hidden mdDown>
+                <div style={{ position: 'absolute', zIndex: 10000, left: '3vw', bottom: '340px' }} >
+                    <div style={{ position: 'fixed', justifyContent: 'center', alignContent: 'center', height: '340px  ' }} >
+                        <HashLink smooth to={'/#intro'} style={{ textDecoration: "none" }}>
+                            <div className={inViewSection1 ? "Dot-Font-active " : "Dot-Font"} >.</div>
+                        </HashLink>
+                        <HashLink smooth to={'/#mission'} style={{ textDecoration: "none" }}>
+                            <div className={inViewSection2 ? (inViewSection1 ? "Dot-Font" : "Dot-Font-active ") : "Dot-Font"}>.</div>
+                        </HashLink>
+                        <HashLink smooth to={'/#products'} style={{ textDecoration: "none" }}>
+                            <div className={inViewSection3 ? (inViewSection2 ? "Dot-Font" : (inViewSection4 ? "Dot-Font" : "Dot-Font-active ")) : "Dot-Font"}>.</div>
+                        </HashLink>
+                        <HashLink smooth to={'/#our-clients'} style={{ textDecoration: "none" }}>
+                            <div className={inViewSection4 ? "Dot-Font-active " : "Dot-Font"}>.</div>
+                        </HashLink>
+                        <div className={inViewSection5 ? "line-decoration-none" : "line-decoration"} />
+                    </div>
                 </div>
-            </div>
+            </Hidden>
 
             <div class="videoSection" background="" ref={refSection1} id="intro">
                 <div class="videoFilter"></div>
@@ -164,21 +167,25 @@ export default function App() {
 
                 </div>
                 <div class="videoText">
-                    <Grid container>
-                        <Grid item class="videoTextTitle" data-aos="slide-right">
-                            Initiate <br></br>Possibilities <span style={{ color: "#F1A039" }}>.</span>
-                        </Grid>
-                        <Grid item class="videoTextContent" data-aos="fade-up">
+
+                    <Typist>
+                        <div class="videoTextTitle">
+                            Initiate <br></br>Possibilities <span style={{ color: "#F1A039", paddingLeft: "10px" }}>.</span>
+                        </div>
+                    </Typist>
+
+                    <Grid container >
+                        <Grid item class="videoTextContent1" data-aos="fade-up" data-aos-delay="300">
                             We are your trusted software engineering partner, with the leverage of smart innovations and cloud technologies, empowering businesses to achieve more in the digital acceleration.
                         </Grid>
-                        <Grid item>
+                        <Grid item class="videoTextContent2">
                             <Grid container sx={{ pt: 7 }} direction="row"
                                 justifyContent="flex-start"
                                 alignItems="center">
-                                <Grid item xs={4} data-aos="fade-up">
+                                <Grid item xs={4} data-aos="fade-up" data-aos-delay="400">
                                     <img src={CITF} class="citf" />
                                 </Grid>
-                                <Grid item xs={8} data-aos="fade-up">
+                                <Grid item xs={8} data-aos="fade-up" data-aos-delay="500">
                                     Cerebro Inspection is pre-approved by
                                     the Construction Innovation & Technology Fund (CITF)
                                 </Grid>
@@ -212,7 +219,7 @@ export default function App() {
                         <h2 data-aos="fade-up">Our Customization Process:</h2>
                         <p data-aos="fade-up">Our customization process is structured yet flexible to deliver solutions that are best aligned with your unique needs.</p>
                     </div>
-                    <img src={process} class="processImg" data-aos="fade-up"/>
+                    <img src={process} class="processImg" data-aos="fade-up" />
                 </div>
 
                 <div ref={refSection3}>
@@ -231,7 +238,7 @@ export default function App() {
 
                     <Grid container item spacing={3}>
                         {products.map(product => (
-                            <Grid item sm={12} md={4}>
+                            <Grid item xs={12} sm={6} md={4}>
                                 <Card sx={{ height: 400, borderRadius: 4 }} className={classes.productCards} data-aos="fade-up">
                                     <CardActionArea sx={{ height: "100%" }}>
                                         <CardMedia component="img" image={product.img} style={{ backgroundColor: product.bgColor }} sx={{ position: "absolute", top: 0 }} />
@@ -272,24 +279,24 @@ export default function App() {
                     </h1>
                     <Grid container direction="row" justifyContent="space-between" alignItems="center" spacing={6} >
 
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client1} width="100%" />
                         </Grid>
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client2} width="100%" />
                         </Grid>
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client3} width="100%" />
                         </Grid>
 
 
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client4} width="100%" />
                         </Grid>
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client5} width="100%" />
                         </Grid>
-                        <Grid item xs={4} data-aos="fade-up">
+                        <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
                             <img src={client6} width="100%" />
                         </Grid>
                     </Grid>
