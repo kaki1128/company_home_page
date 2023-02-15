@@ -8,15 +8,17 @@
 
 }
 
-.instagram {
-    filter: contrast(0.001);
-    width: 2.4em;
+.ig-hover {
+    /* filter: contrast(0.001); */
+    color: gray;
     cursor: pointer;
-padding-bottom: 6px;
 }
 
-.instagram:hover {
-    filter: contrast(1);
+.ig-hover:hover {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: purple;
 }
 
 
@@ -108,6 +110,18 @@ padding-bottom: 6px;
     font-size: 14px;
 }
 
+@media screen and (max-width:899px) {
+    .font-size-px-sm {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .font-size-px-sm {
+        font-size: 12px;
+    }
+}
+
 .font-size-rem-xs {
     font-size: 1rem;
 }
@@ -140,7 +154,16 @@ padding-bottom: 6px;
     letter-spacing: 1.5px;
 }
 
-.footer-hover:hover{
+.footer-hover:hover {
     color: #6561B2;
-    cursor:pointer;
-  }
+    cursor: pointer;
+}
+
+.footer-hashlink-hover {
+    color: black;
+    cursor: pointer;
+}
+
+.footer-hashlink-hover:hover {
+    color: #6561B2;
+}

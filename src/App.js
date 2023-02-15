@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"
-import Aboutus from "./components/Aboutus"
-import { ProductsStyle1, ProductsStyle2, ProductsStyle3 } from "./components/Products"
-import Contactus from "./components/Contactus";
-import Home from "./components/Home";
-import productJson from "./components/ProductPageList"
-import Search from "./components/Search";
-import Data from "./Data.json"
+import Navbar from "./components/elements/Navbar";
+import Footer from "./components/elements/Footer"
+import Aboutus from "./components/pages/Aboutus"
+import { ProductsStyle1, ProductsStyle2, ProductsStyle3 } from "./components/pages/Products"
+import Contactus from "./components/pages/Contactus";
+import Home from "./components/pages/Home";
+import productJson from "./components/data/ProductPageList"
+import Search from "./components/pages/Search";
+import searchData from "./components/data/SearchData.json"
+import ScrollToTop from "./ScrollToTop";
+import Opening from "./components/elements/Opening";
+import { Container } from "@mui/material";
 
 const theme = createTheme({
   palette: {
@@ -29,10 +32,25 @@ const theme = createTheme({
 })
 
 function App() {
+
+  const [open, setOpen] = useState(true);
+
+  useEffect(() => {
+    if (window.sessionStorage.getItem("firstLoadDone") === null) {
+      setOpen(true)
+      setTimeout(() => {
+        window.sessionStorage.setItem("firstLoadDone", 1)
+      }, 1000);
+    } else {
+      setOpen(false)
+    }
+  }, [])
+
   return (
     <ThemeProvider theme={theme}>
+      {open ? <Opening /> : null}
       <Router>
-        <div className="App">
+        {/* <ScrollToTop> */}
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -170,10 +188,10 @@ function App() {
             />
 
             <Route exact path="/contact" element={<Contactus />} />
-            <Route path="/search" element={<Search data={Data} />} />
+            <Route path="/search" element={<Search data={searchData} />} />
           </Routes>
           <Footer />
-        </div>
+        {/* </ScrollToTop> */}
       </Router>
     </ThemeProvider>
   );

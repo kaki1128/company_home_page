@@ -1,0 +1,74 @@
+[
+  {
+    "link": "/about",
+    "title": "About Us",
+    "des": "Technologies we use",
+    "keywords":"About Us Cerebro Strategy Limited Technologies we use Tesseract OCR App Engine Google Cloud Tensor Flow PWA AWS"
+  },
+  {
+    "link": "/contact",
+    "title": "Contact Us",
+    "des": "info@cerebrohk.com, 20/F, Benson Tower, 74 Hung To Road, Kwun Tong, Kowloon, Hong Kong",
+    "keywords":"Contact Us General Inquiries info@cerebrohk.com 852 2272 3774 Office 20/F Benson Tower 74 Hung To Road Kwun Tong Kowloon Hong Kong"
+  },
+  {
+    "link": "/",
+    "title": "Home",
+    "des":"Our Mission We are your trusted software engineering partner, with the leverage of smart innovations and cloud technologies, empowering businesses to achieve more in the digital acceleration",
+    "keywords": "Our Mission We are your trusted software engineering partner with the leverage of smart innovations and cloud technologies empowering businesses to achieve more in the digital acceleration keywords Home Initiate Possibilities We are your trusted software engineering partner with the leverage of smart innovations and cloud technologies empowering businesses to achieve more in the digital acceleration At Cerebro dedication to optimize construction efficiency and quality are more than just business imperatives we aim to connect traditional construction practice to Construction 2.0 a technological transformation for the industry What we do We offer industry specific solutions from software applications to intelligent 3D modelling with customization services to ensure our solutions are in compliance with industry standards as well as meeting your unique business needs Our Customization Process Our customization process is structured yet flexible to deliver solutions that are best aligned with your unique needs Products Services Digital Works Supervision System DWSS Cerebro Inspection All in one digital platform to achieve paperless and automated inspection Digital Works Supervision System Cerebro Diary Digital Site Diary platform to record daily site activities with no hassle Cerebro Project EDM Integrated platform to secure organise and update company documents and drawings BIM 3D illustration of full building lifecycle for building assets Knowledge Management System Centralized knowledge sharing platform for all project information and know-hows Cerebro Analyse Electronic construction budgeting and estimation software Cerebro Procurement Full-fledged digital platform to manage vendor and material sourcing Cerebro Project Photo Registration Affiliated cloud-based photo upload and register mobile application Signature App United signature application for all Cerebro platforms Our Clients CRBC-CEC-KADEN Joint Venter CRBC Build King Joint Venture BUILD KING KUM SHING JV REL SKEC"
+  },
+  {
+    "link": "/product/Analyse",
+    "title": "Cerebro Analyse",
+    "des": "A software to streamline construction budgeting and estimations. With a few clicks, monthly and overall costs of sub-contractors and projects will be automatically calculated and ready for review, saving those tedious cost calculations from now on.",
+    "keywords":"'Project Management Budget Estimation Cost Management Web Application Cerebro Analyse Request a demo A software to streamline construction budgeting and estimations With a few clicks monthly and overall costs of sub-contractors and projects will be automatically calculated and ready for review saving those tedious cost calculations from now on Project Managment Budget Estimation Cost Management Web Application"
+  },
+  {
+    "link": "/product/BIM",
+    "title": "BIM",
+    "des": "We offer Building Information Modelling (BIM) services - a three dimensional illustration of the entire building lifecycle of the building asset.",
+    "keywords":"BIM Request a demo We offer Building Information Modelling services a three dimensional illustration of the entire building lifecycle of the building asse BIM 3D Modelling"
+  },
+  {
+    "link": "/product/Diary",
+    "title": "Digital Works Supervision System (DWSS) Cerebro Diary",
+    "des": "A paperless site diary platform to record daily construction records. With a few steps, site staff will be able to record every site details ranging from manpower to equipment, along with report export function to generate comprehensive reports which are in compliance with construction practice.",
+    "keywords":"Site Diary Site Management DWSS Safety Quality Site Activities Labour Management Web Application Digital Works Supervision System (DWSS) Cerebro Diary Request a demo A paperless site diary platform to record daily construction records With a few steps site staff will be able to record every site details ranging from manpower to equipment along with report export function to generate comprehensive reports which are in compliance with construction practice Create record review and endorse site diary form digitally with any device any time and anywhere Support on site attendance record synchronized to Cerebro Diary Weather data is extracted from the local weather observatory and prefilled on a digital site diary Reports can be generated and exported as GF527 and GF527A reports on the monthly return of construction site employment statistics Site Diary Site Managment DWSS Safety Quality Site Activities Labour Management Web Application"
+  },
+  {
+    "link": "/product/EDMS",
+    "title": "Electronic Document Management System Cerebro Project",
+    "des": "An all-in-one platform to centralise, organise and update company documents and drawings. More than a document filing system, our platform combines storage and assignment to ensure hassle free document handling.",
+    "keywords":"EDMS Project Management Document Management Web Application Electronic Document Management System Cerebro Project Request a demo An all-in-one platform to centralise organise and update company documents and drawings More than a document filing system our platform combines storage and assignment to ensure hassle free document handling Unified platform to manage document handling for clients and vendors Task alerts will be sent specifically to users if actions need to be taken from the users to make sure tasks are completed correctly and promptly Highlighted search results shown on result pages facilitate users to efficiently locate the information needed EDMS Project Managment Document Management Web Application"
+  },
+  {
+    "link": "/product/Inspection",
+    "title": "Digital Works Supervision System (DWSS) Cerebro Inspection",
+    "des": "A barrier-free inspection platform for all types of inspections and workflows. All inspections are conducted via smartphones, tablets or web browsers with selections of straightforward drop down options and check boxes with photo capture and upload function, streamlining inspection activities",
+    "keywords":"Inspection Site Management DWSS Safety Survey Quality Environmental Mobile Application Web Application Digital Works Supervision System (DWSS) Cerebro Inspection Request a demo A barrier-free inspection platform for all types of inspections and workflows All inspections are conducted via smartphones tablets or web browsers with selections of straightforward drop down options and check boxes with photo capture and upload function streamlining inspection activities On Cerebro Inspection all inspection records will be submitted and completed digitally without single use of paper All records will be stored on clouds - so no more losing of inspection records With a camera equipped phone site photos can be captured and attached to the digital inspection form directly For easy reference you can even add sketches or annotation to the image Inspection records will be consolidated and analysed as key performance indicators (KPI) for project supervisors to tackle on underperformed inspection categories Reports can be exported and downloaded as PDF and Excel format All inspections records are time stamped and electronically signed with names and positions to ensure all responsibility and accountability can be tracked Inspection Site Managment DWSS Safety Survey Quality Environmental Mobile Application Web Application"
+  },
+  {
+    "link": "/product/KMS",
+    "title": "Knowledge Management System",
+    "des": "A centralised knowledge sharing platform for all construction project know-hows. Authorized construction professionals can update project information where management teams can review and track all construction records and progress, even from long finished projects at ease.",
+    "keywords":"Project Management Knowledge Management Web Application Knowledge Sharing Knowledge Management System Request a demo A centralised knowledge sharing platform for all construction project know-hows Authorized construction professionals can update project information where management teams can review and track all construction records and progress even from long finished projects at ease Function Management MIC PIC Admin View Information Upload Information Edit Information Approve Information Assign Task View Statistics Edit User Project Managment Knowledge Management Web Application Knowledge Sharing"
+  },
+  {
+    "link": "/product/PhotoReg",
+    "title": "Cerebro Prject Photo Registration",
+    "des": "Utilizing the cloud technology, all site photos can now be uploaded, stored and categorized through the cloud-based platform with access from anytime and anywhere. Photos stored are retrievable in our Cerebro platforms.",
+    "keywords":"Project Management Photo Storage Site Management Mobile Application Cerebro Prject Photo Registration Request a demo Utilizing the cloud technology all site photos can now be uploaded stored and categorized through the cloud-based platform with access from anytime and anywhere Photos stored are retrievable in our Cerebro platforms Project Managment Photo Storage Site Management Mobile Application"
+  },
+  {
+    "link": "/product/Procurement",
+    "title": "Cerebro Procurement",
+    "des": "An integrated platform to automate vendor and material sourcing, digitally. From identifying material costs, screening of best vendors, receipt of quotations and material purchase, every internal and external material movements will always be under your control 24/7, just on one tap away.",
+    "keywords":"Procurement Project Management Sourcing Material Site Management Subcontractor Quantity Surveying Web Application Cerebro Procurement Request a demo An integrated platform to automate vendor and material sourcing digitally From identifying material costs screening of best vendors receipt of quotations and material purchase every internal and external material movements will always be under your control 24/7  just on one tap away Procurement Project Managment Sourcing Material Site Management Subcontractor Quantity Surveying Web Application"
+  },
+  {
+    "link": "/product/Signature",
+    "title": "Signature App",
+    "des": "Make an electronic signature to Cerebro platforms, anytime and anywhere.",
+    "keywords":"Site Management Project Management E-signature Mobile Application Signature App Request a demo Make an electronic signature to Cerebro platforms anytime and anywhere Site Managment Project Managment E-signature Mobile Application"
+  }
+]
